@@ -1,7 +1,13 @@
+import Logo from '../../components/Logo';
+
 export default function PaginaPrincipal(){
     return(
+    <>
+        <Logo/>
         <div>
-            <h1></h1>
-        </div>
+            
+            </div>
+        </>
     );
+    
 }
