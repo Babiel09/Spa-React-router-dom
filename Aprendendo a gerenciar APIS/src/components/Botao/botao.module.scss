@@ -1,0 +1,24 @@
+@import '../../styles/variaveis.module.scss';
+
+.botao {
+    background-color: $cor-secundaria; /* Usando a cor secundária */
+    color: white; /* Cor do texto */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    font-family: $ft-textos; /* Fonte dos textos */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para a cor de fundo e transformação */
+
+    &:hover {
+        background-color: darken($cor-secundaria, 10%); /* Cor de fundo ao passar o mouse */
+        transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+    }
+
+    &:active {
+        background-color: darken($cor-secundaria, 20%); /* Cor de fundo ao clicar */
+        transform: translateY(0); /* Remover elevação ao clicar */
+    }
+}

@@ -17,7 +17,7 @@ const links = [
 
 
 export default function Header(){
-    return(      
+    return(  
         <div className={styles.container}>
             <span className={styles.linha}></span>
         <div className={styles.header}>

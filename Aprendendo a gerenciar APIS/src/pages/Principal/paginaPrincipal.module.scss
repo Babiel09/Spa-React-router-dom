@@ -1,0 +1,53 @@
+@import '../../styles/variaveis.module.scss';
+
+.home {
+    max-width: 1040px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+
+    h1 {
+        font-size: 2rem;
+        color: $cor-primaria;
+        margin-bottom: 2rem;
+        font-family: $ft-textos;
+            span{
+                color: $cor-secundaria;
+        }
+    }
+
+    .text-container {
+        max-width: 50%;
+    }
+
+    .button-container {
+        margin-top: 20px;
+    }
+
+    .image-container {
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        img {
+            max-width: 474px;
+            height: auto;
+        }
+
+        .decorative-elements {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 100px;
+            height: 100px;
+            background: url('/path/to/decorative-elements.png') no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
