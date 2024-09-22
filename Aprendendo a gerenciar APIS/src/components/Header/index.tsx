@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
-import Servicos from "../../pages/serviços";
+import Serviços from "../../pages/serviços";
 import Espaço from "../../pages/espaco";
 import styles from './header.module.scss';
 import Contato from "../../pages/contato";
 
 const links = [
-    {path:'/serviços', component: Servicos },
+    {path:'/serviços', component: Serviços },
     
     {path:'/espaço', component: Espaço},
 

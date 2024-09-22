@@ -1,9 +1,11 @@
+@import '../../styles/variaveis.module.scss';
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.6rem;
-    background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+    background: $gradiente-primario;
 }
 
 
@@ -12,7 +14,7 @@
 }
 
 .linha{
-    border-top: 1px solid black;
+    border-top: 1px $cor-solida;
     width: 80%;
 }
 .linksContainer{
@@ -25,9 +27,9 @@
 }
 .informations{
     text-decoration: none;
-    color: rgb(12, 4, 33);
+    color: $cor-primaria;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $ft-textos;
 
 }
 .linha2 {
