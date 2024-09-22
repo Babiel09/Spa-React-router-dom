@@ -1,9 +1,9 @@
-import Logo from '../../components/Logo';
+import Header from '../../components/Header';
 
 export default function PaginaPrincipal(){
     return(
     <>
-        <Logo/>
+        <Header/>
         <div>
             
             </div>

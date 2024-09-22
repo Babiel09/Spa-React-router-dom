@@ -1,5 +1,4 @@
-import logo from '../../assets/Logo-Spa.png';
-import styles from './logo.module.scss';
+import logo from '../../assets/logo.png';
 
 export default function Logo(){
     return(

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+}
+
+
+.header{
+    padding: 2rem;
+}
+
+.linha{
+    border-top: 1px solid black;
+    width: 80%;
+}
+.linksContainer{
+    display: flex; // mudar para flex
+    justify-content: center; // para centralizar os links
+    gap: 2rem;
+}
+.links{
+    list-style-type: none;
+}
+.informations{
+    text-decoration: none;
+    color: rgb(12, 4, 33);
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.linha2 {
+    border-top: 1px solid #c3c3c3; // ajuste a cor para o que está no Figma
+    width: 100%; // ajuste se necessário
+  }
