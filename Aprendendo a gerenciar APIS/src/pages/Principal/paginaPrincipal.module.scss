@@ -10,11 +10,11 @@
     padding: 20px;
     border-radius: 10px;
 
-    h1 {
-        font-size: 2rem;
+    .titulo1 {
+        font-size: 4rem;
         color: $cor-primaria;
         margin-bottom: 2rem;
-        font-family: $ft-textos;
+        font-family: $ft-titulos;
             span{
                 color: $cor-secundaria;
         }
