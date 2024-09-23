@@ -6,9 +6,10 @@ import styles from './header.module.scss';
 import Contato from "../../pages/contato";
 
 const links = [
+
+    {path:'/espaço', component:Espaço},
+
     {path:'/serviços', component: Serviços },
-    
-    {path:'/espaço', component: Espaço},
 
     {path:'/contato', component: Contato}
 

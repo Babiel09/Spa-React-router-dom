@@ -24,6 +24,9 @@
 }
 .links{
     list-style-type: none;
+    :hover{
+        color: $cor-secundaria;
+    }
 }
 .informations{
     text-decoration: none;
