@@ -2,6 +2,7 @@ import styles from './parte-final.module.scss';
 import Imagem1 from '../../assets/icon-massagem.png';
 import Imagem2 from '../../assets/icon-tratamentos.png';
 import Imagem3 from '../../assets/icon-dias-especiais.png';
+import EstrelaImagem from '../../assets/Soft Star.png';
 
 const imagens = [{imagem:Imagem1, descricao: (
     <>
@@ -51,6 +52,9 @@ export default function ParteFinal(){
                     <img src={imagem} 
                     className={styles.imagem}/>
                     <h3>{index === 0 ? "Mensagens": index === 1 ? "Tratamentos Corporais": "Dias especiais"}</h3>
+                    <img src={EstrelaImagem}
+                    className={styles.estrela}
+                    />
                     <p className={styles.descricao}>{descricao}</p>
                     </div>
                 </li>

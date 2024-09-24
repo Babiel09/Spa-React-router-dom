@@ -5,7 +5,7 @@ import RostoMoca from '../../assets/home-image.png';
 import styles from './paginaPrincipal.module.scss';
 import ImagensRelaxantes from '../../components/imagens-relaxa';
 import ImagemFuturista from '../../components/imagens-futurista';
-import ParteFinal from '../../components/parte-final';
+import Footer from '../../components/footer';
 
 export default function Espaço(){
     const navigate = useNavigate();
@@ -33,7 +33,8 @@ export default function Espaço(){
         <div>
             <ImagensRelaxantes/>
         </div>
-        <div className={styles.ajustesFinal}>
+        <div>
+        <Footer/>
         </div>
     </>
     );
