@@ -1,0 +1,28 @@
+@import '../../styles/variaveis.module.scss'; 
+.relax{
+    position: relative;
+    right: auto;
+    left: 70px;
+
+    h1{
+        font-family: $ft-titulos;
+        color: $cor-secundaria;
+        font-size: 44px;
+    }
+    p{
+        font-family: $ft-textos;
+        font-size: 22px;
+    }
+    
+}
+.imagemRelax1{
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+}
+.imagemRelax2{
+    position: relative;
+    left: 1050px;
+    bottom: 625px;
+}
+

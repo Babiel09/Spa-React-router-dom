@@ -1,0 +1,21 @@
+@import '../../styles/variaveis.module.scss';
+.imgContainer{
+    position: relative;
+    bottom: 200px;
+    left: 72px;
+    
+}
+.tecnologia{
+    position: relative;
+    top: 140px;
+    left: 700px;
+    h1{
+        font-family: $ft-titulos;
+        color: $cor-secundaria;
+        font-size: 50px;
+    }
+    p{
+        font-family: $ft-textos;
+        font-size: 1.6rem;
+    }
+}
