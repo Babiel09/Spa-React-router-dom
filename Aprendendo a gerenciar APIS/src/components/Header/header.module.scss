@@ -34,6 +34,10 @@
     color: $cor-primaria;
     font-weight: 400;
     font-family: $ft-textos;
+    &:hover{
+        color: $cor-secundaria;
+    }
+    
 
 }
 .linha2 {

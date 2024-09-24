@@ -14,7 +14,7 @@
 
     &:hover {
         background-color: darken($cor-secundaria, 10%); /* Cor de fundo ao passar o mouse */
-        transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+        transform: translateY(-20px); /* Efeito de elevação ao passar o mouse */
     }
 
     &:active {

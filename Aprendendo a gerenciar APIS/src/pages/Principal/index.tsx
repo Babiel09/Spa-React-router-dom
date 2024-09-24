@@ -5,8 +5,9 @@ import RostoMoca from '../../assets/home-image.png';
 import styles from './paginaPrincipal.module.scss';
 import ImagensRelaxantes from '../../components/imagens-relaxa';
 import ImagemFuturista from '../../components/imagens-futurista';
+import ParteFinal from '../../components/parte-final';
 
-export default function PaginaPrincipal(){
+export default function Espaço(){
     const navigate = useNavigate();
     return(
     <>
@@ -31,6 +32,8 @@ export default function PaginaPrincipal(){
         </div>
         <div>
             <ImagensRelaxantes/>
+        </div>
+        <div className={styles.ajustesFinal}>
         </div>
     </>
     );

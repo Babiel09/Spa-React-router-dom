@@ -1,17 +1,22 @@
-import { useNavigate } from 'react-router-dom';
-import Botao from '../../components/Botao';
+import { useNavigate } from "react-router-dom";
+import Botao from "../../components/Botao";
+import ParteFinal from "../../components/parte-final";
+import styles from './servicos.module.scss';
+import Header from "../../components/Header";
+
+
 
 export default function Serviços(){
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     return(
-        <div>
-            <h1>Essa parte foi feita para não ter nada, apenas para existir</h1>
-            <div>
-                <Botao
-                onClick={()=> navigate('/')}
-                nome="< Voltar"
-                />
+        <>
+        <Header/>
+        <div className={styles.containerServico}>
+            <ParteFinal/>
             </div>
-        </div>
+            <div>
+            </div>
+            </>
     )
+
 }
